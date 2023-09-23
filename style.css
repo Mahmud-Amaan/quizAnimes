@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body {
+    display: flex;
+    background-image: url(kXa.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: change 15s infinite ease-in-out;
+}
+
+.quiz {
+    position: relative;
+    background: transparent;
+    border: 2px solid rgba(0, 0, 0, .2);
+    backdrop-filter: blur(3px);
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+}
+.quiz h1 {
+    font-size: 25px;
+    font-size: 600;
+    border-bottom: 1px solid gray;
+    padding-bottom: 30px;
+}
+.qas {
+    padding: 20px 0;
+}
+
+.qas h3 {
+    font-size: 19px;
+    font-weight: 600;
+    color: black;
+}
+.qas button{
+    background: transparent;
+    backdrop-filter: blur(1px);
+    width: 100%;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+    transition:all 0.5s
+}
+.qas button:hover {
+    background-color: black;
+    color: white;
+}
+@keyframes change{
+    0%
+    {
+        background-image: url(kXa.jpg);
+    }
+    20%
+    {
+        background-image: url(izuku-midoriya-my-hero-academia-uhdpaper.com-4K-5.1641.jpg);
+    }
+    40%
+    {
+        background-image: url(attack-on-titan-final-season-uhdpaper.com-4K-8.2101.jpg);
+    }
+    60%
+    {
+        background-image: url(wallpapersden.com_one-piece-hd-luffy-cool-art_3200x1800.jpg);
+    }
+    80%
+    {
+        background-image: url(peakpx.jpg)
+    }
+    100%
+    {
+        background-image: url(sword.jpg);
+    }
+}
